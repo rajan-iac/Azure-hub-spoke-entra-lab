@@ -1,0 +1,54 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform.lock.hcl
+
+# Terraform secrets
+terraform.tfvars
+*.auto.tfvars
+
+# SSH keys
+id_rsa
+id_rsa.pub
+*.pem
+*.ppk
+
+# Certificates
+*.pfx
+*.cer
+*.crt
+*.key
+
+# Entra / application secrets
+.env
+appsettings.Production.json
+secrets.json
+
+# .NET
+bin/
+obj/
+publish/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project SSH keys
+publickey-linux
+publickey-linux.pub
+privatekey-linux.ppk
+
+# Azure VPN client package
+vpnclientconfiguration/
+vpnclientconfiguration.zip
